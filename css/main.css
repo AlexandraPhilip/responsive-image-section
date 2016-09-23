@@ -58,3 +58,7 @@ a {
 a:hover {
   background-color: 000;
 }
+
+p {
+  text-align: left;
+}
