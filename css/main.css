@@ -62,3 +62,30 @@ a:hover {
 p {
   text-align: left;
 }
+
+@media only screen and (min-width: 38em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+  body {
+    display: block;
+    margin: auto;
+  }
+  footer {
+    display: inline-block;
+    max-width: 49%;
+    margin: 4.3em auto;
+  }
+  .text {
+    padding-right: 1em;
+    max-width: 49%;
+    margin: 0.75em auto;
+    vertical-align: top;
+    display: inline-block;
+  }
+  .image {
+    display: block;
+  }
+}
