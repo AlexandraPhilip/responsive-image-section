@@ -89,3 +89,37 @@ p {
     display: block;
   }
 }
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+  p {
+    margin-bottom: 1em;
+  }
+  h1 {
+    margin-bottom: 1.1em;
+  }
+  a {
+    padding: 0.75rem;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+  }
+  section {
+    max-width: 60em;
+    margin: auto;
+  }
+  footer {
+    margin-top: 2em;
+  }
+  .text {
+    margin-top: 2.6em;
+    padding-right: 1.5rem;
+    padding-left: 1.2rem;
+  }
+  .img-flex {
+    padding-right: 1.2em;
+  }
+}
